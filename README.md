@@ -7,7 +7,7 @@ This file was used initally for calculating SPI given precipitation data. It was
 
 
 # Fireweather.py
-This file was used to calculate the [Fosberg Fire Weather Index](https://a.atmos.washington.edu/wrfrt/descript/definitions/fosbergindex.html). This index requires temperature, relative humidity, and wind speed data. In order to store this data, we used pickle files and one of the functions allowed us to store a dictionary of each of these files. However, it does require a specific folder structure as shown here ![folders]{/Folders.png}.
+This file was used to calculate the [Fosberg Fire Weather Index](https://a.atmos.washington.edu/wrfrt/descript/definitions/fosbergindex.html). This index requires temperature, relative humidity, and wind speed data. In order to store this data, we used pickle files and one of the functions allowed us to store a dictionary of each of these files. However, it does require a specific folder structure as shown here ![folders](/Folders.png)
 
 # Gif.py
 This is just a simple python file that concatenates all the image files in a given folder into a gif. This was mainly used in accordance with Panoply as we were able to export a series of png images, and then pass these images into our gif function and animate the data.
